@@ -42,21 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    // остановка таймера; не нужен, есть onPause();
-    /*@Override
-    protected void onStop() {
-        super.onStop();
-        wasRunning = isRunning;
-        isRunning = false;
-
-    }*/
-
-    // перезапустить onStart(); не нужен, есть onResume();
-   /* @Override
-    protected void onStart() {
-        super.onStart();
-        isRunning = wasRunning;
-    }*/
+  
 
     @Override
     protected void onPause() {
